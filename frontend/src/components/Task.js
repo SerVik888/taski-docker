@@ -9,7 +9,7 @@ const Task = ({ data, handleEdit, handleDelete }) => {
       </span>
       <span>
         <button
-          className="btn btn-danger mr-2"
+          className="btn btn-secondary mr-2"
           onClick={() => handleEdit(data)}
         >
           Edit
