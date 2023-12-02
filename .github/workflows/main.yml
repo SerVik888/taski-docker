@@ -13,7 +13,7 @@ jobs:
 
     steps:
     # Копируем код проекта
-      uses: actions/checkout@v3
+    - uses: actions/checkout@v3
     # Устанавливаем Python с помощью action
     - name: Set up Python
       uses: actions/setup-python@v4
