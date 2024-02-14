@@ -9,9 +9,8 @@
 `git clone git@github.com:SerVik888/taski-docker.git` -> клонировать репозиторий
 
 **При помощи docker**\
-    Перед началом нужно установить и запустить Docker.
-
-    `docker-compose up` -> запустить Docker Compose
+    Перед началом нужно установить и запустить Docker.\
+    `docker-compose up` -> запустить Docker Compose\
     `docker-compose stop` -> остановить Docker Compose
 
 **Без docker**
