@@ -11,6 +11,7 @@
 **При помощи docker**\
     Перед началом нужно установить и запустить Docker.\
     `docker-compose up` -> запустить Docker Compose\
+    Открыть новый терминал\
     `docker compose exec backend python manage.py collectstatic` -> cобрать статику Django
     `docker compose exec backend cp -r /app/collected_static/. /backend_static/static/` -> копируем статику(backend) на volume\
     `docker compose exec backend python manage.py migrate` -> выполнить миграции\
